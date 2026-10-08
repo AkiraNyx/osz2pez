@@ -1,0 +1,38 @@
+# Gradle / Android build output
+android/.gradle/
+android/.kotlin/
+android/build/
+android/app/build/
+android/local.properties
+android/captures/
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Signing material never belongs in the repo
+*.jks
+*.keystore
+*.p12
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Beatmaps and converted packages are user content, usually copyrighted
+*.osz
+*.osk
+*.pez
+output/
+output-*/
+
+# OS clutter
+.DS_Store
+Thumbs.db
+desktop.ini
